@@ -43,7 +43,7 @@ function renderTask() {
     data.forEach(function (task) {
       let text = document.createElement("div");
       text.innerHTML = `<div><p>${task.name}</p></div>`;
-      toDoList.appendChild(name);
+      toDoList.appendChild(text);
     });
   }
 }
